@@ -76,7 +76,7 @@ def handle_get(event):
     country = query_params.get('country', None)
 
     # do a time range query if both start and end time are given
-    # except users to provide datetime information in this format 2019-11-11T02:44:44
+    # expect users to provide datetime information in this format 2019-11-11T02:44:44
     if start_date_time and end_date_time:
         start_date, start_time = start_date_time.split('T')
         end_date, end_time = end_date_time.split('T')
