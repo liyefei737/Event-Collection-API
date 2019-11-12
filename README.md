@@ -6,9 +6,9 @@ API Usage:
 
 	e.g by city https://url/?city=Chicago
 
-	e.g by city https://url/?country=Canada
+	e.g by country https://url/?country=Canada
 
-	e.g by city https://url/?city=Toronto&country=United%20States
+	e.g by city and country https://url/?city=Toronto&country=United%20States
 
 2. query by time range
 	e.g. https://url/?startDateTime=2019-11-11T02:44:44&endDateTime=2019-11-13T20:11:52
