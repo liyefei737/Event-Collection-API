@@ -21,5 +21,5 @@ AWS Serverless backend using Lambda, API Gateway and DynamoDB:
 ](https://drive.google.com/uc?export=view&id=13NkCuWqbmc56vGn5ODr9ptADBY7-ZqoO)
 
 In DynamoDB, each event is stored as an item and it has the following fields:
-created_date(Partition Key), created_time(Sort Key), ip, name, city, country, location, additional_info. API also makes uses 2 GSIs that use city and country as Primary key respectively. Geolocation API docker container is deployed using AWS ECS. 
+created_date(Partition Key), created_time(Sort Key), ip, name, city, country, location, additional_info. The API also makes use of 2 GSIs that use city and country attribute as Primary key respectively. Geolocation API docker container is deployed using AWS ECS. 
 
